@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { ArrowRight, Mail } from 'lucide-react'
 import ScrollReveal from '@/components/ScrollReveal'
 
+
 const team = [
   {
     name: 'Mark Sitek',
@@ -20,28 +21,47 @@ const team = [
     initials: 'LC',
   },
   {
+    name: 'Khushin Patel',
+    role: 'CFO & CTO',
+    bio: 'Khushin oversees Sitek\'s financial operations and technology infrastructure. He brings a background in fintech and enterprise systems, ensuring the firm runs with the same precision it delivers to clients.',
+    email: 'k.patel@sitekindustries.com',
+    initials: 'KP',
+  },
+  {
+    name: 'Bryan Garrison',
+    role: 'Senior Field Consultant',
+    bio: 'Bryan leads on-site engagements across industrial and medical facilities nationwide. With deep field experience in source handling, survey instrumentation, and incident response, he is the team\'s go-to for complex in-person assessments.',
+    email: 'b.garrison@sitekindustries.com',
+    initials: 'BG',
+  },
+  {
     name: 'Alex Trujillo',
-    role: 'Senior Health Physicist — Compliance & Licensing',
+    role: 'Director of Compliance Strategy',
     bio: 'Alex specializes in NRC and Agreement State licensing, inspection preparation, and regulatory correspondence. He has guided clients through hundreds of license renewals and zero-finding inspections.',
     email: 'a.trujillo@sitekindustries.com',
     initials: 'AT',
   },
   {
     name: 'Judah Farahi',
-    role: 'Health Physicist — Operations & Scheduling',
+    role: 'Operations Analyst',
     bio: 'Judah manages field operations, client scheduling, and training delivery. He holds certifications in radiation protection and has conducted on-site audits across 20+ states.',
     email: 'j.farahi@sitekindustries.com',
     initials: 'JF',
   },
-]
-
-const credentials = [
-  'American Board of Health Physics (ABHP) Certified',
-  'NRC and Agreement State License Experience',
-  'DOT Hazmat Employee Training',
-  'OSHA Radiation Safety Compliance',
-  'Medical, Industrial & Research Sector Experience',
-  'Emergency Response Planning Certified',
+  {
+    name: 'Ralph Christian Q Mendoza',
+    role: 'Radiation Systems Specialist',
+    bio: 'Ralph focuses on radiation detection systems, equipment calibration, and technical program design. His engineering background enables Sitek to support clients with complex source inventories and instrumentation requirements.',
+    email: 'r.mendoza@sitekindustries.com',
+    initials: 'RM',
+  },
+  {
+    name: 'Kevin Duffy',
+    role: 'Risk & Safety Advisor',
+    bio: 'Kevin brings expertise in occupational safety, risk assessment, and emergency preparedness planning. He works with clients to build response frameworks that hold up under real-world pressure, not just on paper.',
+    email: 'k.duffy@sitekindustries.com',
+    initials: 'KD',
+  },
 ]
 
 export default function TeamPage() {
