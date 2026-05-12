@@ -63,6 +63,14 @@ const team = [
     initials: 'KD',
   },
 ]
+const credentials = [
+  'American Board of Health Physics (ABHP) Certified',
+  'NRC and Agreement State License Experience',
+  'DOT Hazmat Employee Training',
+  'OSHA Radiation Safety Compliance',
+  'Medical, Industrial & Research Sector Experience',
+  'Emergency Response Planning Certified',
+]
 
 export default function TeamPage() {
   return (
