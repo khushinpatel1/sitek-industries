@@ -21,6 +21,7 @@
 
 html {
   background-color: var(--bg-primary);
+  overflow-x: hidden; /* add this */
 }
 
 body {
